@@ -468,6 +468,7 @@ textarea{
 	-webkit-background-size: cover;
 	background-size: cover;
 	margin-top: -100px;
+	overflow-x:hidden;
 }
 
 .forBtn{
