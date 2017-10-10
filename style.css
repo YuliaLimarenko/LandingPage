@@ -1,0 +1,1761 @@
+
+.b-container{
+  /*   width:200px;
+    height:150px; */
+ /*    background-color: #ccc; */
+/*     margin:0px auto; */
+    /* padding:10px; */
+    font-size:1.9em;
+    color: white;
+    margin-bottom: -3%;
+    padding-right: 5%;
+    text-align: right;
+    margin-top: -3%;
+
+}
+.b-container a{
+	color: white;
+	font-weight: bold;
+}
+.b-container a:hover{
+	color: white;
+}
+
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    z-index: 2;
+    /*  margin-left: -3%; */
+     color: white;
+
+   
+}
+.b-popup .b-popup-content{
+    margin:0px auto 0px auto;
+    width:30%;
+    height: 100%;
+    padding:30px;
+    background-color: #345777;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    text-align: center;
+}
+
+.close{
+	text-align: right;
+}
+.b-popup-content input{
+	margin: 1%;
+	padding: 3%;
+	width: 60%;
+	border-radius: 10px 10px;
+	border: 2px solid #b3e2fc;
+	background: #7a7a7a;
+}
+.btnLog{
+	border-radius: 10px 10px;
+	background:#345777 ;
+	border: 2px solid #b3e2fc ;
+	margin-top: 2%;
+	width: 20%;
+	margin-bottom: 5%;
+	padding: 2%;
+}
+.tittleLogin, .tittleRegister{
+	font-size: 1.5em;
+}
+.tittleRegister{
+	margin-bottom: 5%;
+}
+
+::-webkit-input-placeholder { font-size: 1.2em;
+padding-left:5%}
+
+
+html, body{
+	overflow-x: hidden;
+
+}
+.fon{
+/* 	height: 100%; */
+}
+.containerTime{
+ margin-left: 10%;
+ margin-top: -5%;
+}
+#tittleTimer{
+	margin-bottom: -15%;
+	color: #f7eb42;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+.caption {
+   font-size: 0.4em;
+   position: absolute;
+   bottom: -40px;
+   left: 0;
+   text-align: center;
+   width: 100%;
+  color: #405c68;
+
+}
+
+#CDT {
+    font-size: 40px;
+    color: #eee;
+    margin: 70px 0 100px;
+    font-weight: bold;
+}
+
+#CDT .number-wrapper {
+    margin: 10px;
+    -moz-box-shadow: 0 5px 8px #000000;
+    -webkit-box-shadow: 0 5px 8px #000000;
+    box-shadow: 0 5px 8px #000000;
+    position: relative;
+}
+
+#CDT .number {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background: #000;
+    background-image: linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -o-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -moz-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -webkit-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    background-image: -ms-linear-gradient(bottom, #000000 2%, #3c3c3c 50%, #000000 100%);
+    -webkit-border-top-right-radius: 7px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topright: 7px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 0 12px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 1px solid #555;
+    -moz-box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 4px 0 rgba(255, 255, 255, 0.2);
+    -moz-text-shadow: 0 3px 3px #000000;
+    -webkit-text-shadow: 0 3px 3px #000000;
+    text-shadow: 0 3px 3px #000000;
+}
+       
+#CDT .line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 52%;
+    left: 0;
+    background: #000;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+#navUl li{
+	list-style-type: none;
+	display: inline;
+	font-size: 1.6em;
+	padding-right:5%;
+	color: white;
+
+}
+li a:hover{
+	color: white;
+}
+li a{
+	color: white;
+
+}
+li:hover{
+/* font-size: 2em; */
+font-weight: bold;
+text-decoration: none;
+
+}
+
+#navUl{
+	text-align: center;
+
+
+}
+.navbar{
+		margin-top: -50px;
+
+		background: #405c68;
+		padding-top: 20px;
+		padding-bottom: 40px;
+
+}
+.first{
+	background: url('bg555.jpg') fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Abel', sans-serif;
+}
+.fon, .fonWhite{
+	background: rgba(64, 92, 104, 0.6);
+
+
+}
+.mainInfo{
+	color: white;
+	text-align: center;
+
+
+}
+.MapInfo2 p{
+font-size: 14px;
+}
+.mainInfo h2{
+	font-size: 3.5em;
+	text-align: left;
+padding-left: 250px;
+}
+.mainInfo h4{
+	font-family: 'Montserrat', sans-serif;
+	color: #6ff2d1;
+	font-size: 3em;
+/* 	text-align: center; */
+/* margin-left: -5%; */
+font-weight: bold;
+
+}
+.tsection {
+
+padding: 1%;
+color: white;
+font-weight: bold;
+font-size: 1.4em;
+
+}
+.main-timer{
+position: fixed;
+
+margin-top: -1%;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 10px 10px;
+}
+.title{
+	color: #ff9000;
+	font-size: 1.4em;padding-bottom: 3%;
+	font-weight: bold;
+}
+
+
+
+/* .fon{
+	background: rgba(244, 249, 248, 0.4);
+} */
+.logo{
+	/* text-align: right; */
+	/* margin-right: 100px; */
+	margin-bottom: -80px;
+	margin-top: 70px;
+	animation-delay: 1s;
+
+
+}
+#logoMain{
+	margin-left: 30%;
+	
+}
+.divIcon{
+	text-align: right;
+	margin-right: 90px;
+	margin-top: 50px;
+	margin-bottom: -8%;
+
+}
+.info{
+	margin-top: 5%;
+	margin-left: 250px;
+	margin-right: 250px;
+	color: white;
+}
+#pInfo{
+	font-size: 2em;
+}
+/* .second{
+
+	background: #f4edf3 fixed;
+	margin-top: -30px;
+} */
+.AboutUs{
+	margin-top: 50px;
+}
+.infoBlock, .infoProject{
+	color: white;
+	font-family: 'Abel', sans-serif;
+	font-size: 2.5em;
+	text-align: center;
+}
+.name, .nameAboutProject, .WhitePaperName, .RoadMap, .tittleTeam{
+	font-size: 4.5em;
+	color: #6ff2d1;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.tittleTeam{
+ color:white;
+ padding-top: 2%;
+}
+.info1, .info2{
+	padding-left:50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	}
+ #pThird{
+
+display: none;
+}
+
+#pFirst, #pSecond, #pThird, #pProject{
+	font-size: 0.9em;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#pProject{
+color:#7f130e
+}
+.Jmbthird{
+	/* background: #f4edf3 fixed; */
+	margin-top: -80px;
+	padding-left: 60px;
+	padding-right: 60px;
+
+}
+.nameAboutProject, .WhitePaperName{
+	color:  #128c6e;
+}
+.aboutProject{
+	padding-bottom:10%;
+}
+
+
+.footer{
+	background: url('FUTER фон simple.png');
+
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index: 1;
+	
+	color: white;
+	font-size: 1.2em;
+	margin-top: -80px;
+	/* padding-bottom: 10%; */
+	/* padding-top: -80%; */
+	margin-bottom: -10%;
+}
+.contactUs {
+margin-top: 10%;
+text-align: center;
+padding-bottom: 40px;
+}
+#tel1{
+	margin-bottom: 2px;
+	margin-top: 30px;
+	font-size: 1em;
+}
+#tel2{
+	font-size: 1em;
+}
+#mainCont{
+font-size: 1.2em;
+font-weight: bold;
+}
+#email{
+	font-size: 1em;
+}
+.soc-wrap li{
+	list-style-type: none;
+/* 	display: inline; */
+padding: 10%;
+
+}
+.soc-wrap{
+	position: fixed;
+
+}
+/* .col2 input{
+	margin-top: 10px;
+	background: none;
+	padding: 3%;
+	border: 1px solid white;
+	width: 100%;
+	border-radius: 5px 5px;
+
+} */
+
+input:focus{
+
+	border: 1px solid #b3e2fc;
+}
+textarea{
+	background: none;
+	border: 1px solid white;
+	/* margin-top: 30%; */
+	width: 100%;
+	border-radius: 5px 5px;
+
+}
+#adress{
+	font-size: 1em;
+}
+#tel{
+	font-size: 1.2em;
+}
+.name{
+	margin-top: 150px;
+}
+#name, .nameAboutProject{
+	margin-top: 40px;
+}
+.btnSend{
+	background: #8fd9f7;
+	border: 1px solid white;
+	color: white;
+	margin-top: 1%;
+	width: 70%;
+	padding: 3%;
+	width: 100%;
+	border-radius: 5px 5px;
+	text-transform: uppercase;
+}
+.col3{
+		/* margin-top: 20px; */
+		margin-bottom: 20px;
+		padding-top: 3%;
+}
+::-webkit-input-placeholder { color: white; }
+.footerRow{
+	padding-top: 50px;
+	margin-bottom: -4%;
+}
+.faqRow2{
+	display: none;
+
+}
+.jmbFaq{
+	background: url('ФОН.png') fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: -100px;
+}
+
+.forBtn{
+	text-align: center;
+	margin-left: 90px;
+}
+.slideBtn{
+	margin-top: 40px;
+	
+	padding: 10px 30px;
+	background: #345777;
+	border: 5px solid #b3e2fc;
+	margin-right: 1%;
+}
+
+.faq1, .faq2, .faq3, .faq4, .faq5, .faq6, .faq7{
+	margin-top:10px;
+	background:#345777;
+	color: white;
+
+	padding: 40px 30px;
+	/* border: 1px solid #026768; */
+	border-radius: 10px 10px;
+
+
+}
+#answer1,#answer2, #answer3, #answer4, #answer5, #answer6, #answer7 {
+	font-size: 0.9em;
+	text-align: center;
+	height: 220px;
+}
+#faqTittle{
+	margin-left: 50%;
+	color: #345777;
+	font-size: 4em;
+	font-weight: bold;
+	
+	
+}
+.divImg{
+	text-align: center;
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+.question{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+/* 	text-transform: uppercase; */
+	height: 7vh;
+	color: #b3e2fc;
+
+}
+#slideBtn1{
+	border: 5px solid #3371d6 ;
+}
+
+.JmbWhite{
+	background: url('bg555.jpg') fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: -40px;
+
+}
+.logo{
+	/* text-align: center; */
+	margin-left: 8%;
+}
+.divForLogo{
+	padding-top: 80px;
+	padding-left: 150px;
+	padding-bottom: 80px;
+}
+.fonWhite{
+margin-top: -70px;
+height: 150%;
+
+}
+.WhitePaperName{
+	color: #6ff2d1;
+	padding-top: 50px;
+}
+.divForLogo{
+	background: black;
+	padding-left: 30px;
+	width: 70%;
+	margin-left: 50px;
+	padding-bottom: 30px;
+	height:350px;
+	padding-top: 120px;
+	margin-bottom: 50px;
+	border-radius: 50px 50px;
+}
+.jmbRoad{
+	margin-top: -11%;
+
+
+}
+
+.tittleRoad{
+margin-top: 20px;
+		color: #345777;
+	font-size: 1em;
+	font-weight: bold;
+}
+.bgRoad{
+	background: url('нигативная сеть.png') fixed;
+	/* background: #f7fafc;
+ */	margin-top: -80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+.fonRoad{
+	background: rgba(255, 255, 255, 0.6) fixed;
+	padding-bottom: 10%;
+/* 	padding-top:-10%; */
+}
+.rt1{
+	margin-left: 1%;
+}
+.roadText{
+	/* margin-top: 450px; */
+
+		color:#128c6e;
+	/* 	padding-left: 10px; */
+		padding-right: 10px;
+	text-align: left;
+	font-size: 0.4em;
+		/* text-align: justify;
+ */
+}
+.RoadMap p{
+	font-size: 1.2em;
+}
+.stage{
+	/* color:#026768 ;
+	border: 10px solid #345777  ;
+	border-radius: 100px 100px; */
+	/* height: 330px; */
+	/* background:#d8ecff; */
+}
+
+.MapInfo{
+	margin-top: 5%;
+	font-size: 0.2em;
+	font-weight: normal;
+	color: #373a81;
+	padding-left: 35%;
+	padding-right: 10%;
+	padding-bottom: 60px;
+	font-weight: bold;
+	/* margin-left: 15%; */
+}
+.forStrela{
+	margin-top: -10%;
+	margin-left: -150px;
+}
+.stage1{
+	margin-left: 2%;
+	margin-top: -5%;
+	background: url('нейрон 3.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+/* 	border: 2px solid red; */
+}
+
+.MapTittle{
+	color: #397993;
+	margin-top: 35%;
+	font-size: 0.35em;
+	margin-left: 25%;
+	letter-spacing:2px;
+}
+.MapInfo p{
+	font-weight: bold;
+	color: #162f39;
+	margin-top: 10px;
+}
+/* .MapDate{
+	margin-left: -60px;
+	font-size: 0.2em;
+} */
+.stage2{
+	background: url('нейрон 1.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: -10%;
+	margin-left: -10%;
+}
+.MapInfo2{
+	margin-top: -2%;
+	font-size: 0.25em;
+	font-weight: normal;
+	color: #373a81;
+	padding-top: 10%;
+	/* padding-left: 0px;
+	padding-right: 70px; */
+	padding-bottom: 60px;
+	font-weight: bold;
+	font-size: 0.3em;
+	margin-left: 10%;
+}
+.MapTittle2{
+	color: #397993;
+	margin-top: 20%;
+	margin-left: 3%;
+	letter-spacing:2px;
+}
+.MapDate2{
+margin-left: 5%;
+	margin-top: -50px;
+	color: #162f39;
+	font-weight: bold;
+	font-size: 0.4em;
+	padding-bottom: 90px;
+	
+} 
+.MapDate{
+	margin-top: -50px;
+/* 	margin-bottom: -70px; */
+	color: #162f39;
+	font-weight: bold;
+	font-size: 0.4em;
+	padding-bottom: 30px;
+
+}
+ ./* preIco, .Ico{
+	color:#026768 ;
+	border: 7px solid #345777  ;
+	border-radius: 70px 70px;
+	background:#d8ecff;
+	height: 200px;
+	margin-left: 190px;
+	
+	} */
+.preIco{
+	margin-right: 200px;
+	
+}
+.divForStrela{
+	/* margin-top: -240px; */
+	margin-left: 200px;
+
+}
+.divForStrela2{
+	margin-top: -25%;
+	margin-left: -40%;
+}
+.stage3{
+	background: url('НЕЙРОН 2.png');
+	-webkit-background-size: cover;
+	/* background-size: cover; */
+	margin-top: -20%;
+	padding-bottom: 5%;
+
+}
+.MapTittle3{
+	color: #397993;
+	margin-top: 25%;
+	margin-left: -5%;
+	font-size: 0.8em;
+	letter-spacing:2px;
+}
+.MapInfo3{
+	margin-top: 5%;
+	padding-bottom: 0;
+	font-size: 0.35em;
+	color: #373a81;
+	width: 130%;
+	margin-left: -18%;
+
+}
+.MapDate3{
+	color: #162f39;
+	font-size: 0.45em;
+	font-weight: bold;
+}
+/* .Ico{
+	width: 25%;
+	margin-left: 35%;
+	height: 200px;
+} */
+.preSale h2, .preIco h2, .Ico h2{
+	font-weight: bold;
+}
+.jmbTeam{
+	margin-top: -80px;
+}
+
+.ImgTeam img{
+	border-radius: 20px 20px;
+}
+.lineTeam, .ImgTeam{
+	text-align: center;
+}
+.lineTeam{
+	margin-top: 120px;
+	/* float: left; */
+}
+.btnLeft, .btnRight{
+	background: none;
+	border: none;
+}
+.team{
+
+	background:#04767c;
+	margin-top: -15%;
+	padding-bottom: 70px;
+
+}
+#team2, #team3{
+	display: none;
+}
+.infoAboutTeam{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 1.4em;
+	font-weight: bold;
+	display: block;
+	color: white;
+}
+.iconTeam{
+	text-align: center;
+}
+.infoTeamMember{
+	color: white;
+}
+.form-wrap1{
+	   width:25%;
+    /* border:2px solid #ccc; */
+    /* background:rgba(255, 255, 255, 0.6);
+ */    text-align:center;
+    padding:10px;
+
+    position:fixed;
+    bottom:45px;
+    right:150px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+.topbutton  {
+    width:7%;
+    /* border:2px solid #ccc; */
+    background:rgba(255, 255, 255, 0.6);
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+.divForWhite{
+	margin-left: 10%;
+	margin-top: -30%;
+}
+.WhitePaperName{
+	margin-left: 40%;
+	color: #6ff2d1;
+}
+.whiteInfo{
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+}
+.forBtnWhite{
+	text-align: center;
+	margin-top: 5%;
+}
+#btnWhite{
+	border-radius: 10px 10px;
+	background: #128c6e;
+	border: 1px solid #6ff2d1 ;
+	padding: 1.5%;
+	color: white;
+	width: 30%;
+	font-size: 1.2em;
+}
+.forUl{
+display: none;
+
+
+}
+.ulLang{
+	text-align: left;
+	padding-left: 10%;
+	margin-left: 35%;
+background: rgba(255, 255, 255, 0.5) ;
+margin-right: 35%;
+border-radius: 10px 10px;
+padding-bottom: 1.5%;
+}
+.ulLang li{
+list-style-type: none;
+/* background: rgba(255, 255, 255, 0.5) ; */
+/* margin-left: 5%; */
+/* margin-right: 10%; */
+
+padding-top: 5%;
+
+}
+.ulLang a{
+	color: #128c6e;
+font-weight: bold;
+font-size: 1em;
+}
+
+#fEmail{
+	width: 50%;
+	padding: 1%;
+	background: none;
+	border: 2px solid white;
+	margin-top: 10%;
+}
+#btnEmail{
+	background: none;
+	border: 2px solid white;
+padding: 1%;
+}
+.form-wrap1{
+	margin-left: 40%;
+	position: fixed;
+	margin-top: -281%;
+
+}
+.form-wrap1 ::-webkit-input-placeholder {
+font-size: 0.7em;
+
+}
+
+
+
+@media only screen and (min-width: 1200px){
+#logoMain{
+	width: 600px;
+	height: 247px;
+	margin-bottom: 5%;
+}
+
+}
+@media only screen and (min-width: 992px){
+.whiteInfo{
+	padding-left: 15%;
+}
+}
+
+@media only screen and (max-width: 1200px){
+
+.stage1{
+	margin-left: 2%;
+	margin-top: -5%;
+	background: url('нейрон 3.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+.MapTittle{
+	margin-top: 45%;
+	margin-left: 50%;
+}
+.MapInfo{
+	padding-left: 35%;
+	padding-right: 0;
+	padding-bottom: 60px;
+}
+#st{
+width: 200px;
+margin-left: 55%;
+}
+#st2{
+	height: 120px;
+	width: 130px;
+	margin-top: 10%;
+}
+.navbar{
+	font-size: 0.7em;
+}
+.stage2{
+
+	margin-top: -10%;
+	margin-left: 20%;
+}
+.jmbRoad{
+	margin-top: -200px;
+}
+#imgWhite{
+		width: 250px;
+		height: 249px;
+	}
+.forBtnWhite{
+	padding-bottom: 20%;
+}
+.forUl{
+	margin-top: -20%;
+	margin-bottom: 20%;
+}
+}
+
+@media only screen and (max-width: 991px){
+	.forStrela, .divForStrela2{
+		display: none;
+	}
+#tittleTimer{
+	margin-top:10% ;
+}
+#CDT{
+	margin-top: 20%;
+	margin-bottom: 3%;
+}
+margin-top: 10%;
+
+.stage1{
+	margin-left: -10%;
+	margin-top: -5%;
+	background: url('нейрон 3.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+
+.MapTittle{
+	margin-top: 45%;
+	margin-left: 30%;
+}
+.MapInfo{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 60px;
+	margin-left: 25%;
+	font-size: 0.2em;
+}
+#st{
+width: 200px;
+margin-left: -10%;
+margin-top: 5%;
+}
+#st2{
+	height: 150px;
+	width: 170px;
+	margin-top: 20%;
+	margin-left: 70%;
+	margin-left: 5%;
+}
+.navbar{
+	font-size: 0.7em;
+}
+/* .stage2{
+
+	margin-top: 0%;
+	margin-left: 0%;
+	padding-right: 0%;
+	padding-left: 80%;
+} */
+/* .preIco{
+	margin-left: -80%;
+} */
+
+.whiteInfo{
+	margin-left: 20%;
+	margin-right: 5%;
+}
+#logoMain{
+	padding-bottom: 0%;
+	padding-top: -20%;
+	margin-left: -2%;
+
+}
+.stage3{
+	margin-top: -10%;
+	
+
+}
+.faq1, .faq2, .faq3, .faq4, .faq5, .faq6, .faq7{
+	margin-left: 20%;
+	margin-right: 20%;
+	}
+	.col3{
+		padding-top: 4%;
+		
+	}
+	#imgWhite{
+		width: 300px;
+		height: 299px;
+	}
+}
+ @media (min-width: 512px) and (max-width: 925px){
+ 	#Username1{
+ 		margin-left:50%;
+ 	}
+	#imgWhite{
+		width: 250px;
+		height: 249px;
+	}
+.fonWhite{
+	margin-top: -30px;
+ }
+ .forBtnWhite{
+ 	padding-bottom: 30%;
+ }
+ .forUl{
+ 	margin-top: -30%;
+ 	padding-bottom: 10%;
+ }
+ .whiteInfo{
+ 	margin-left: 25%;
+ }
+ .WhitePaperName{
+ 	margin-top: -5%;
+ 	margin-left: 50%;
+
+ }
+}
+
+
+@media only screen and (max-width: 925px){
+
+#navUl li{
+	font-size: 1.2em;
+}
+#pInfo{
+	font-size: 1.5em;
+
+}
+.info{
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: white;
+}
+.mainInfo h4{
+	font-size: 1.8em;
+	margin-top: 10%;
+}
+.name{
+	margin-top: 10%;
+}
+#pFirst, #pSecond, #pThird, #pProject{
+	font-size: 0.7em;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.nameAboutProject{
+	margin-top: -3%;
+	margin-bottom: -2%;
+}
+.whiteInfo{
+	font-size: 1.2em;
+	padding-right: 10%;
+}
+.WhitePaperName{
+	margin-right: 20%;
+	font-size: 1.8em;
+}
+#btnWhite{
+	width: 50%;
+/* 	margin-bottom: 20%; */
+}
+.forUl{
+	/* margin-top: -40%; */
+	width: 100%;
+}
+.ulLang li{
+	margin-left: -20%;
+}
+.MapTittle, {
+	margin-left: 50%;
+}
+ .MapInfo3{
+	margin-left: 0%;
+}
+.stage3{
+	margin-left: -20%;
+}
+.MapTittle3{
+	margin-left: 10%;
+}
+.MapDate3{
+	margin-left: 20%;
+}
+.MapInfo{
+	/* padding-right: -60%; */
+	padding-right: 0;
+	padding-left: 20%;
+}
+.stage3{
+	margin-top: -8%;
+}
+#st{
+	width: 200px;
+}
+#faqTittle{
+	text-align: center;
+	margin-left: 0;
+}
+.forBtn{
+	text-align: center;
+	margin-left:0;
+}
+.col3{
+	margin-top: 2%;
+}
+.navbar{
+padding-top: 5%;
+}
+#answer1,#answer2, #answer3, #answer4, #answer5, #answer6, #answer7{
+	font-size: 0.8em;
+}
+}
+@media only screen and (max-width: 925px){
+.stage1{
+	margin-left: -10%;
+	padding-left: 0;
+}
+#st{
+	margin-left: 80%;
+}
+#st2{
+	margin-left: 80%;
+}
+.stage3{
+	margin-left: -10%;
+	margin-top: -25%;
+}
+.MapInfo{
+	/* padding-right: -70%; */
+	padding-left: 10%;
+	font-size: 0.2em;
+	padding-left: 10%;
+}
+.infoTeamMember{
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+	#logoMain{
+		margin-left: 0%;
+	}
+.preSale{
+	/* margin-left:20%;
+	margin-right: -20%; */
+	margin-top: -20%;
+}
+#st{
+	/* margin-left: 5%;
+	margin-top: 45%;
+	width: 45%; */
+	display: none;
+}
+.stage1{
+	-webkit-background-size: 500px 321px;
+	margin-left: -10%;
+}
+.stage2{
+	margin-left: 45%;
+	margin-top: -20%;
+}
+.stage3{
+	margin-left: 10%;
+}
+#st2{
+	/* margin-top: -70%;
+	margin-left: 130%; */
+	display: none;
+}
+.ImgTeam img{
+	width: 100px;
+	height: 100px;
+}
+.infoTeamMember{
+	font-size: 0.8em;
+
+}
+
+.Ico{
+	margin-left: -25%;
+	padding-right: 10%;
+}
+.roadText{
+	text-align: right;
+	font-size: 0.3em;
+	margin-right: 5%;
+}
+.rt1{
+	margin-left: 40%;
+}
+#pProject{
+	font-size: 0.6em;
+}
+.faq1, .faq2, .faq3, .faq4, .faq5, .faq6, .faq7{
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+#answer1,#answer2, #answer3, #answer4, #answer5, #answer6, #answer7 {
+font-size: 1.3em;
+}
+#message, .btnSend{
+	width: 90%;
+	margin-top: 2%;
+}
+#mainCont{
+	font-size: 1.3em;
+}
+
+#tel, #tel2{
+	font-size: 1em;
+}
+#pFirst, #pSecond{
+	font-size: 0.6em;
+}
+.forBtnWhite{
+	padding-bottom:50%;
+}
+.forUl{
+	margin-top: -50%;
+	padding-bottom: 40%;
+	width: 140%;
+	margin-left: -20%;
+}
+
+}
+@media only screen and (max-width: 676px){
+#imgWhite{
+	width: 200px;
+	height: 199px;
+}
+}
+@media only screen and (max-width: 698px){
+.stage1{
+	margin-left: 10%;
+	padding-right: 25%;
+
+}
+.preSale{
+	padding-top: 15%;
+	padding-left: 15%;
+}
+.navbar{
+	font-size: 0.5em;
+}
+
+}
+@media only screen and (max-width: 632px){
+#answer1,#answer2, #answer3, #answer4, #answer5, #answer6 , #answer7{
+font-size: 1.1em;
+}
+}
+
+
+@media only screen and (max-width: 581px){
+.soc-wrap{
+	margin-top: 5%;
+	margin-left: -10%;
+
+}
+.footEmail{
+	margin-top: 10%;
+}
+.contactUs{
+	padding-top:10%;
+}
+.preSale{
+	padding-top: 25%;
+	padding-left: 30%;
+	width: 150%;
+}
+.stage1{
+	margin-left: -15%;
+
+
+}
+.MapTittle{
+	margin-left: -5%;
+	margin-top: 30%;
+}
+.MapInfo{
+	margin-left: -10%;
+}
+
+}
+@media only screen and (max-width: 517px){
+.preSale{
+	padding-top: 25%;
+	padding-left: 10%;
+	width: 150%;
+}
+.stage1{
+	margin-left: -5%;
+-webkit-background-size: 400px 286px;
+background-size: 400px 286px;
+
+}
+.MapTittle{
+	margin-left: -5%;
+	margin-top: 30%;
+}
+.MapInfo{
+	margin-left: -10%;
+}
+.navbar{
+	font-size: 0.4em;
+	}
+.mainInfo h4{
+	font-size: 1.3em;
+}
+}
+
+@media only screen and (max-width: 551px){
+	.b-popup-content input{
+	
+	width: 100%;
+
+}
+.b-popup .b-popup-content{
+   
+    width:50%;
+  margin-left: 35%;
+}
+.btnLog{
+	width: 100%;
+}
+.b-container{
+
+    font-size:1.9em;
+    color: white;
+    margin-bottom: -3%;
+    padding-right: 2%;
+    text-align: right;
+    margin-top: -5%;
+
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+  
+   
+}
+.navUl{
+text-align: left;
+   }
+
+.item img{
+width: 20px;
+}
+#logoMain {
+width: 300px;
+height: 124px;
+margin-left: -5%;
+
+}
+#pFirst, #pSecond{
+	font-size: 0.8em;
+	padding-left: 0;
+	padding-right: 0;
+}
+#CDT{
+	margin-bottom: 20%;
+}
+
+
+
+	#navUl{
+		padding-top: 3%;
+	}
+
+/* #neuro, #team{
+	display: none;
+} */
+.navbar{
+	padding-bottom: 0;
+	padding-top: 6%;
+	font-size: 0.38em;
+	margin-left: -15%;
+}
+#logoMain{
+	margin-bottom: 5%;
+	margin-top: -20%;
+}
+.containerTime{
+	margin-top: 10%;
+	margin-bottom: -20%;
+}
+.caption {
+   font-size: 0.1em;
+   bottom: -10px;
+   color: white;
+}
+.number-wrapper{
+	height: 10%;
+}
+#pInfo{
+	font-size: 1.1em;
+
+}
+.info{
+	padding-top: 5%;
+}
+.divIcon img{
+	width: 20px;
+	height: 20px;
+}
+.name, .nameAboutProject, .WhitePaperName, .tittleTeam, #faqTittle{
+	font-size: 1.6em;
+}
+#pFirst, #pSecond{
+	font-size: 0.4em;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: -15%;
+	margin-bottom: -5%;
+}
+#pProject{
+	margin: 0;
+	padding: 0;
+padding-top: 5%;
+	text-align: justify;
+	font-size: 0.4em;
+}
+.tittleRoad{
+	font-size: 0.4em;
+}
+.roadText{
+	font-size: 0.15em;
+}
+.stage1{
+	margin-top: -20%;
+}
+.preSale{
+/* margin-left: -25%;
+margin-top: -35%; */
+font-size: 0.8em;
+width: 80%;
+}
+.stage2{
+	margin-left: 5%;
+	margin-top: -30%;
+	
+
+}
+.preIco{
+	font-size: 0.7em;
+	margin-top: 30%;
+	
+}
+.Ico{
+	font-size: 0.7em;
+	padding-right: 40%;
+	margin-top: -20%;
+	/* padding-left: 20%; */
+}
+.stage2{
+/* 	-webkit-background-size: 250px 300px;
+	background-size: 250px 300px ; */
+	/* width: 10%; */
+}
+
+.MapTittle2{
+	font-size: 0.5em;
+}
+.MapTittle3{
+	margin-top: -10%;
+	margin-left: 70%;
+	font-size: 0.6em;
+}
+.MapInfo2{
+	padding-right: 10%;
+	padding-top: -15%;
+}
+.MapInfo3{
+	margin-left: 35%;
+	padding-right: 30%;
+}
+.stage3{
+/* 		-webkit-background-size: 350px 350px;
+	background-size: 350px 350px ; */
+	margin-top: -15%;
+	padding-top: 50%;
+	padding-bottom: 30%;
+	margin-left: -5%;
+	margin-bottom: -10%;
+
+}
+.MapDate3{
+	margin-left: 70%;
+}
+.faq1, .faq2, .faq3, .faq4, .faq5, .faq6, .faq7{
+font-size: 0.7em;
+	}
+.question{
+font-size: 0.8em;
+}
+#imgWhite{
+width: 100px;
+height: 99px;
+}
+.JmbWhite{
+	margin-top: 2%;
+}
+.WhitePaperName{
+	font-size: 0.9em;
+
+}
+#btnWhite{
+	font-size: 0.6em;
+	width: 70%;
+}
+.forBtnWhite{
+	padding-bottom: 130%;
+}
+.forUl{
+	margin-top: -130%;
+	padding-bottom: 100%;
+	width: 100%;
+	margin-left: 0;
+}
+.ulLang{
+font-size: 0.6em;
+}
+/* .whiteInfo{
+	font-size: 0.8em;
+	padding-left: 10%;
+	margin-top: -10%;
+	padding-bottom: 40%;
+} */
+/* .forBtnWhite{
+	margin-top: -30%;
+	padding-bottom: 40%;
+}
+#btnWhite{
+	width: 70%;
+	font-size: 1em;
+} */
+.ulLang{
+margin-top: -40%;
+width: 70%;
+margin-left: 15%;
+padding-left: 25%;
+margin-bottom: 20%;
+}
+/* .WhitePaperName{
+	text-align: center;
+	padding-bottom: 5%;
+	margin-top: -30%;
+} */
+.ImgTeam img{
+	width: 70px;
+	height: 70px;
+}
+.infoAboutTeam{
+	font-size: 0.7em;
+}
+
+.imgIcon{
+	width: 15px;
+	height: 15px;
+}
+.infoTeamMember{
+	font-size: 0.5em;
+}
+#mainCont{
+	font-size: 0.5em;
+}
+#adress, #email {
+	font-size: 0.6em;
+}
+#tel1, #tel2{
+	font-size: 0.5em;
+}
+::-webkit-input-placeholder {
+font-size: 0.5em;
+	}
+.col2 input{
+padding: 0;
+width: 80%;
+font-size: 0.8em;
+
+}
+.col2{
+	margin-top: -5%;
+
+
+}
+
+#message{
+font-size: 0.8em;
+margin-bottom: -5%;
+	width: 80%;
+}
+.btnSend{
+	font-size: 0.5em;
+	width: 80%;
+}
+.footerRow{
+	padding-top: 5%;
+}
+.contactUs{
+	/* padding-top: 50%; */
+}
+.footEmail{
+	padding-top: -190%;
+}
+.fonWhite{
+	margin-top: -60px;
+
+}
+.topbutton {
+	width: 20%;
+	right: 20px;
+}
+.form-wrap1{
+	right: 100px;
+	width: 50%;
+}
+/* .JmbWhite{
+	margin-top: 10%;
+} */
+
+}
+@media only screen and (max-width: 320px){
+.MapTittle{
+	margin-left: 30%;
+}
+.MapInfo{
+	margin-left: 10%;
+}
+#logoMain {
+width: 250px;
+height: 103px;
+margin-bottom: 20%;
+margin-top: -15%;
+}
+#imgWhite{
+width: 80px;
+height: 79px;
+margin-top: -70%;
+}
+#navUl{
+	font-size: 0.8em;
+	margin-top: 5%;
+}
+/* .whiteInfo{
+font-size: 0.5em;
+margin-top: -30%;
+} */
+.WhitePaperName{
+	margin-left: 50%;
+}
+.caption {
+   font-size: 0.3em;
+   position: absolute;
+   /* bottom: -40px; */
+   left: 0;
+   text-align: center;
+   width: 100%;
+  color: #405c68;
+  font-weight: bold;
+
+}
+h4{
+	padding-left: 10%;
+}
+#CDT{
+	/* margin-left: -25%; */
+	/* height: 10px; */
+	font-size: 20px;
+}
+
+}
+@media only screen and (max-width: 373px){
+#CDT{
+	font-size: 19px;
+}
+}
+}
+
+
+
